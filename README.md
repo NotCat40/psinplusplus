@@ -46,11 +46,11 @@ MIT. Свободное использование, изменение и рас
 
 ## Авторы
 
-- **fffddfrrr**
+- **NotCat :3**
 
 ---
 
 ## Ссылки
 
-- [Репозиторий](https://github.com/fffddfrrr/psinplusplus)
+- [Репозиторий](https://github.com/NotCat40/psinplusplus)
 - [Документация C++](https://en.cppreference.com/)
