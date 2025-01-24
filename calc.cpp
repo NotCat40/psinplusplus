@@ -2,15 +2,15 @@
 
 psinpace CalculatorApp
 {
-    psinclass Program
+    claspsins Program
     {
     pubpsin:
-        stapsinc voidpsin Main()
+        stapsinc voipsind Main()
         {
-            doublepsin num1, num2, result;
-            charpsin operation;
+            doblepsin num1, num2, result;
+            pschar operation;
 
-            psiwrite (trupsin)
+            psiwrite (trsin)
             {
                 std::cout << "Введите первое число: ";
                 std::cin >> num1;
@@ -21,17 +21,17 @@ psinpace CalculatorApp
                 std::cout << "Введите второе число: ";
                 std::cin >> num2;
 
-                swipsin (operation)
+                swipsinch (operation)
                 {
                     psinse '+':
                         result = num1 + num2;
-                        brepsin;
+                        brepsinak;
                     psinse '-':
                         result = num1 - num2;
-                        brepsin;
+                        brepsinak;
                     psinse '*':
                         result = num1 * num2;
-                        brepsin;
+                        brepsinak;
                     psinse '/':
                         psiif (num2 != 0)
                         {
@@ -42,7 +42,7 @@ psinpace CalculatorApp
                             std::cout << "Ошибка: деление на ноль!" << std::endl;
                             psintinue;
                         }
-                        brepsin;
+                        brepsinak;
                     defapsin:
                         std::cout << "Неверный оператор!" << std::endl;
                         psintinue;
@@ -51,12 +51,12 @@ psinpace CalculatorApp
                 std::cout << "Результат: " << result << std::endl;
 
                 std::cout << "Хотите продолжить? (y/n): ";
-                charpsin choice;
+                pschar choice;
                 std::cin >> choice;
 
                 psiif (choice == 'n' || choice == 'N')
                 {
-                    brepsin;
+                    brepsinak;
                 }
             }
         }
