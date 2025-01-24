@@ -6,22 +6,22 @@
 
 // Псевдонимы для типов
 using intpsin = int;
-using doublepsin = double;
-using floatpsin = float;
-using charpsin = char;
-using stringpsin = std::string;
-using voidpsin = void;
-using shortpsin = short;
-using longpsin = long;
-using longlongpsin = long long;
-using sizetpsin = size_t;
-using boolpsin = bool;
+using doblepsin = double;
+using floapsint = float;
+using pschar = char;
+using stripsing = std::string;
+using voipsind = void;
+using shopsinrt = short;
+using longpsins = long;
+using longpsinslongpsins = long long;
+using sizpsinet = size_t;
+using boopsinl = bool;
 
-using uintpsin = unsigned int;
-using ucharpsin = unsigned char;
+using upsinint = unsigned int;
+using upsinchar = unsigned char;
 using ushortpsin = unsigned short;
-using ulongpsin = unsigned long;
-using ulonglongpsin = unsigned long long;
+using upsinlong = unsigned long;
+using upsinlonglong = unsigned long long;
 
 // Псевдонимы для ключевых слов
 #define psiif if
@@ -29,15 +29,15 @@ using ulonglongpsin = unsigned long long;
 #define psifor for
 #define psiwrite while
 #define ps do
-#define brepsin break
+#define brepsinak break
 #define psintinue continue
-#define swipsin switch
+#define swipsinch switch
 #define psinse case
 #define defapsin default
 
 // Псевдонимы для классов и структур
-#define psinclass class
-#define strupsin struct
+#define claspsins class
+#define strupsint struct
 #define psinpace namespace
 #define pubpsin public
 #define pripsints private
@@ -53,8 +53,8 @@ using ulonglongpsin = unsigned long long;
 #define psindel delete
 
 // Псевдонимы для констант
-const boolpsin trupsin = true;
-const boolpsin falpsin = false;
+const boopsinl trsin = true;
+const boopsinl fapsin = false;
 const voidpsin* nullpsitr = nullptr;
 
 #endif
