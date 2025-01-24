@@ -9,7 +9,7 @@
 
 2. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/fffddfrrr/psinplusplus.git
+   git clone https://github.com/NotCat40/psinplusplus.git
    cd psinplusplus
    ```
 
