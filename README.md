@@ -3,9 +3,15 @@
 ## Установка
 
 1. Установите компилятор C++:
-   - Linux: `sudo apt install g++`
-   - Windows: [MinGW](http://www.mingw.org/) или Visual Studio.
-   - macOS: `xcode-select --install`.
+   - **Linux**: Установите `g++` с помощью команды:
+     ```bash
+     sudo apt install g++
+     ```
+   - **Windows**: Установите [MinGW](http://www.mingw.org/) или используйте [Visual Studio](https://visualstudio.microsoft.com/).
+   - **macOS**: Установите Xcode Command Line Tools:
+     ```bash
+     xcode-select --install
+     ```
 
 2. Клонируйте репозиторий:
    ```bash
@@ -17,32 +23,38 @@
 
 ## Использование
 
-1. Откройте файл `calc.cpp` в текстовом редакторе.
-2. Внесите изменения в код, если необходимо.
+1. Откройте файл `calc.cpp` в текстовом редакторе или IDE (например, Visual Studio Code, CLion и т.д.).
+2. Внесите необходимые изменения в код, если это требуется.
 3. Скомпилируйте программу:
    ```bash
    g++ calc.cpp -o psinplusplus
    ```
 4. Запустите программу:
-   ```bash
-   ./psinplusplus
-   ```
+   - **Linux/macOS**:
+     ```bash
+     ./psinplusplus
+     ```
+   - **Windows**:
+     ```cmd
+     psinplusplus.exe
+     ```
 
 ---
 
 ## Лицензия
 
-MIT. Свободное использование, изменение и распространение.
+Проект распространяется под лицензией **MIT**. Это означает, что вы можете свободно использовать, изменять и распространять код при условии сохранения уведомления об авторских правах и лицензии.
 
 ---
 
 ## Авторы
 
-- **NotCat :3**
+- **NotCat :3** — основной разработчик и автор проекта.
 
 ---
 
 ## Ссылки
 
-- [Репозиторий](https://github.com/NotCat40/psinplusplus)
-- [Документация C++](https://en.cppreference.com/)
+- [Репозиторий на GitHub](https://github.com/NotCat40/psinplusplus)
+- [Официальная документация C++](https://en.cppreference.com/)
+- [Руководство по Git](https://git-scm.com/doc)
